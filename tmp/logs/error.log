@@ -1,0 +1,838 @@
+2014-05-08 22:47:53 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/test/
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-08 22:48:11 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/test/
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-08 22:52:51 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/test/
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-08 22:52:55 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/test/
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-08 22:53:21 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/test/
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-08 22:53:24 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/test/
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-08 22:57:55 Error: [MissingActionException] Action MydatasController::find() could not be found.
+Exception Attributes: array (
+  'controller' => 'MydatasController',
+  'action' => 'find',
+)
+Request URL: /test/index.php/mydatas/find
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#4 {main}
+2014-05-08 22:58:17 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete
+Stack Trace:
+#0 [internal function]: MydatasController->delete()
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-08 22:58:31 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/view
+Stack Trace:
+#0 [internal function]: MydatasController->view()
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-08 22:58:47 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/view
+Stack Trace:
+#0 [internal function]: MydatasController->view()
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-08 22:59:06 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/edit
+Stack Trace:
+#0 [internal function]: MydatasController->edit()
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-10 13:48:03 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/test/
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-10 13:48:47 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/add
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-10 13:48:53 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/edit
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-10 13:58:36 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/view
+Stack Trace:
+#0 [internal function]: MydatasController->view()
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-12 19:43:26 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/var/www/html/test/View/Mydatas/add.ctp, line 12]
+2014-05-12 19:43:26 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 12, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 12, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 19:44:00 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [/var/www/html/test/View/Mydatas/add.ctp, line 11]
+2014-05-12 19:44:00 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 11, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 11, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 19:45:07 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [/var/www/html/test/View/Mydatas/add.ctp, line 11]
+2014-05-12 19:45:07 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 11, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 11, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 19:47:04 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/var/www/html/test/View/Mydatas/add.ctp, line 13]
+2014-05-12 19:47:04 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 13, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 13, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 19:49:56 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/var/www/html/test/View/Mydatas/add.ctp, line 14]
+2014-05-12 19:49:56 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 14, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 14, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 19:50:31 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/var/www/html/test/View/Mydatas/add.ctp, line 14]
+2014-05-12 19:50:31 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 14, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 14, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 19:51:49 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/html/test/View/Mydatas/add.ctp, line 14]
+2014-05-12 19:51:49 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 14, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 14, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 19:53:11 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/html/test/View/Mydatas/add.ctp, line 14]
+2014-05-12 19:53:11 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 14, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 14, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 20:01:03 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/var/www/html/test/View/Mydatas/add.ctp, line 15]
+2014-05-12 20:01:03 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 15, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 15, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 20:01:20 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/var/www/html/test/View/Mydatas/add.ctp, line 15]
+2014-05-12 20:01:20 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 15, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 15, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 20:01:35 Error: Fatal Error (4): syntax error, unexpected T_PLUS_EQUAL in [/var/www/html/test/View/Mydatas/add.ctp, line 19]
+2014-05-12 20:01:35 Error: [FatalErrorException] syntax error, unexpected T_PLUS_EQUAL
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 19, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 19, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 20:02:10 Error: Fatal Error (4): syntax error, unexpected T_PLUS_EQUAL in [/var/www/html/test/View/Mydatas/add.ctp, line 19]
+2014-05-12 20:02:10 Error: [FatalErrorException] syntax error, unexpected T_PLUS_EQUAL
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 19, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 19, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 20:03:14 Error: Fatal Error (4): syntax error, unexpected T_PLUS_EQUAL in [/var/www/html/test/View/Mydatas/add.ctp, line 19]
+2014-05-12 20:03:14 Error: [FatalErrorException] syntax error, unexpected T_PLUS_EQUAL
+Request URL: /test/index.php/mydatas/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 19, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 19, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 22:57:16 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/var/www/html/test/View/Mydatas/view.ctp, line 41]
+2014-05-12 22:57:16 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /test/index.php/mydatas/view/1
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 41, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 41, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 22:58:31 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/var/www/html/test/View/Mydatas/view.ctp, line 41]
+2014-05-12 22:58:31 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /test/index.php/mydatas/view/1
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 41, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 41, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 22:58:35 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/var/www/html/test/View/Mydatas/view.ctp, line 41]
+2014-05-12 22:58:35 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /test/index.php/mydatas/view/1
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 41, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 41, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 23:45:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.mydata_id' in 'field list'
+Request URL: /test/index.php/mydatas/view/1
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Mydata), 'SELECT `Comment...', Array)
+#5 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Mydata), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2750): DboSource->read(Object(Mydata), Array)
+#7 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2722): Model->_readDataSource('first', Array)
+#8 /var/www/html/test/Controller/MydatasController.php(40): Model->find('first', Array)
+#9 [internal function]: MydatasController->view('1')
+#10 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#11 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#15 {main}
+2014-05-12 23:48:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.mydata_id' in 'field list'
+Request URL: /test/index.php/mydatas/view/1
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Mydata), 'SELECT `Comment...', Array)
+#5 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Mydata), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2750): DboSource->read(Object(Mydata), Array)
+#7 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2722): Model->_readDataSource('first', Array)
+#8 /var/www/html/test/Controller/MydatasController.php(40): Model->find('first', Array)
+#9 [internal function]: MydatasController->view('1')
+#10 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#11 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#15 {main}
+2014-05-24 22:05:46 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/html/test/View/Mydatas/view.ctp, line 53]
+2014-05-24 22:05:46 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /test/index.php/mydatas/view/1
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 53, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 53, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-24 22:06:53 Error: Fatal Error (4): syntax error, unexpected '>' in [/var/www/html/test/View/Mydatas/view.ctp, line 53]
+2014-05-24 22:06:53 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /test/index.php/mydatas/view/1
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 53, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 53, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-24 22:27:45 Error: Fatal Error (4): syntax error, unexpected $end in [/var/www/html/test/Controller/CommentsController.php, line 68]
+2014-05-24 22:27:45 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /test/index.php/comments/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 68, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 68, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-24 22:32:45 Error: Fatal Error (1): Call to a member function create() on a non-object in [/var/www/html/test/Controller/CommentsController.php, line 24]
+2014-05-24 22:32:45 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /test/index.php/comments/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/t...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/t...', 24, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/t...', 24, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-24 22:33:55 Error: Fatal Error (1): Call to a member function create() on a non-object in [/var/www/html/test/Controller/CommentsController.php, line 24]
+2014-05-24 22:33:55 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /test/index.php/comments/add
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/t...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/t...', 24, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/t...', 24, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-24 22:34:16 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/posts/view
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-24 22:34:31 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/posts/view
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-24 22:34:36 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/posts
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-24 22:34:39 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/posts
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-24 22:34:55 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/posts
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-24 22:35:33 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/posts/view
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-24 22:38:27 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/Mydatas/view
+Stack Trace:
+#0 [internal function]: MydatasController->view()
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 22:40:18 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/Mydatas/view
+Stack Trace:
+#0 [internal function]: MydatasController->view()
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:25:39 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:27:28 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:29:08 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:29:15 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:29:31 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:40:09 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:45:08 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/view/#
+Stack Trace:
+#0 [internal function]: MydatasController->view('#')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:45:32 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/view/#
+Stack Trace:
+#0 [internal function]: MydatasController->view('#')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:47:51 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/view/#
+Stack Trace:
+#0 [internal function]: MydatasController->view('#')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-24 23:48:06 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 00:03:53 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 00:04:40 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 00:10:01 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 00:13:54 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 00:16:59 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 00:21:03 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 00:22:20 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 15:54:38 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 16:00:51 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 16:56:47 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 16:57:47 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 16:59:46 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 17:07:03 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/5
+Stack Trace:
+#0 [internal function]: MydatasController->delete('5')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 17:08:04 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/comment/7
+Stack Trace:
+#0 [internal function]: MydatasController->delete('comment', '7')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 17:08:29 Error: [MissingActionException] Action MydatasController::comment() could not be found.
+Exception Attributes: array (
+  'controller' => 'MydatasController',
+  'action' => 'comment',
+)
+Request URL: /test/index.php/mydatas/comment/delete/7
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#4 {main}
+2014-05-25 17:08:55 Error: [MissingControllerException] Controller class CommentController could not be found.
+Exception Attributes: array (
+  'class' => 'CommentController',
+  'plugin' => NULL,
+)
+Request URL: /test/index.php/comment/delete/7
+Stack Trace:
+#0 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#2 {main}
+2014-05-25 17:09:02 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /test/index.php/comments/delete/7
+Stack Trace:
+#0 /var/www/html/test/Controller/CommentsController.php(70): CakeRequest->onlyAllow('mydata', 'delete')
+#1 [internal function]: CommentsController->delete('7')
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#7 {main}
+2014-05-25 17:09:11 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /test/index.php/comments/delete/6
+Stack Trace:
+#0 /var/www/html/test/Controller/CommentsController.php(70): CakeRequest->onlyAllow('mydata', 'delete')
+#1 [internal function]: CommentsController->delete('6')
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#7 {main}
+2014-05-25 17:29:13 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ',' or ';' in [/var/www/html/test/View/Mydatas/view.ctp, line 47]
+2014-05-25 17:29:13 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ',' or ';'
+Request URL: /test/index.php/mydatas/view/1
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 47, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 47, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-25 17:30:03 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [/var/www/html/test/View/Mydatas/view.ctp, line 47]
+2014-05-25 17:30:03 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+Request URL: /test/index.php/mydatas/view/1
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/t...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/t...', 47, Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/t...', 47, Array)
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-25 17:45:23 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/comment/7
+Stack Trace:
+#0 [internal function]: MydatasController->delete('comment', '7')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 17:45:41 Error: [MissingActionException] Action MydatasController::comment() could not be found.
+Exception Attributes: array (
+  'controller' => 'MydatasController',
+  'action' => 'comment',
+)
+Request URL: /test/index.php/mydatas/comment/delete/7
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#4 {main}
+2014-05-25 17:45:50 Error: [MissingActionException] Action MydatasController::comments() could not be found.
+Exception Attributes: array (
+  'controller' => 'MydatasController',
+  'action' => 'comments',
+)
+Request URL: /test/index.php/mydatas/comments/delete/7
+Stack Trace:
+#0 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#4 {main}
+2014-05-25 17:46:46 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/comments/7
+Stack Trace:
+#0 [internal function]: MydatasController->delete('comments', '7')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
+2014-05-25 17:46:57 Error: [NotFoundException] Invalid mydata
+Request URL: /test/index.php/mydatas/delete/comments/7
+Stack Trace:
+#0 [internal function]: MydatasController->delete('comments', '7')
+#1 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MydatasController), Array)
+#2 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(MydatasController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/test/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/test/index.php(10): require('/var/www/html/t...')
+#6 {main}
